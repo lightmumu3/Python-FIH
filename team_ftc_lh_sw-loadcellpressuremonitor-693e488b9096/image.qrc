@@ -1,0 +1,6 @@
+<RCC> 
+	<qresource>
+	   <file>image/Alarm.jpg</file>
+	   <file>image/Normal.jpg</file>
+	</qresource>
+</RCC>

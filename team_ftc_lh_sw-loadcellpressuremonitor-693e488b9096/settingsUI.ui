@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>668</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>18</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="btn_unlock">
+          <property name="text">
+           <string>解鎖</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_lock">
+          <property name="text">
+           <string>鎖定</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btn_ClearCurrentCount">
+        <property name="font">
+         <font>
+          <pointsize>18</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>清零當前壓合次數</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_SettingAlarmValue">
+        <item row="5" column="3">
+         <widget class="QPushButton" name="btn_SaveAlarmValue">
+          <property name="text">
+           <string>保存</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLabel" name="lbl_Sensor_1SV_Lower">
+          <property name="text">
+           <string>下限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="5">
+         <widget class="QLineEdit" name="txt_Sensor_4SV_Upper"/>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLabel" name="lbl_Sensor_3SV_Lower">
+          <property name="text">
+           <string>下限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="lbl_Sensor_2SV">
+          <property name="text">
+           <string>2SV</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="lbl_Sensor_3SV">
+          <property name="text">
+           <string>3SV</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="3">
+         <widget class="QLineEdit" name="txt_Sensor_1SV_Lower"/>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="lbl_Sensor_4SV">
+          <property name="text">
+           <string>4SV</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="3">
+         <widget class="QLineEdit" name="txt_Sensor_4SV_Lower"/>
+        </item>
+        <item row="1" column="4">
+         <widget class="QLabel" name="lbl_Sensor_1SV_Upper">
+          <property name="text">
+           <string>上限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="4">
+         <widget class="QLabel" name="lbl_Sensor_3SV_Upper">
+          <property name="text">
+           <string>上限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="lbl_Sensor_1SV">
+          <property name="text">
+           <string>1SV</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLineEdit" name="txt_Sensor_2SV_Lower"/>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLabel" name="lbl_Sensor_4SV_Lower">
+          <property name="text">
+           <string>下限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="4">
+         <widget class="QLabel" name="lbl_Sensor_2SV_Upper">
+          <property name="text">
+           <string>上限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="4">
+         <widget class="QLabel" name="lbl_Sensor_4SV_Upper">
+          <property name="text">
+           <string>上限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="5">
+         <widget class="QLineEdit" name="txt_Sensor_2SV_Upper"/>
+        </item>
+        <item row="0" column="3">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>報警上下限</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="3">
+         <widget class="QLineEdit" name="txt_Sensor_3SV_Lower"/>
+        </item>
+        <item row="1" column="5">
+         <widget class="QLineEdit" name="txt_Sensor_1SV_Upper"/>
+        </item>
+        <item row="3" column="5">
+         <widget class="QLineEdit" name="txt_Sensor_3SV_Upper"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="lbl_Sensor_2SV_Lower">
+          <property name="text">
+           <string>下限</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <item row="4" column="0">
+         <widget class="QLabel" name="lbl_CalibrationCoefficient">
+          <property name="text">
+           <string>當前校準係數</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="2">
+         <widget class="QPushButton" name="btn_SaveCalibrationCoefficient">
+          <property name="text">
+           <string>保存</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="QLineEdit" name="txt_CurrentPressure"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="lbl_CurrentPressure">
+          <property name="text">
+           <string>當前顯示值</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="2">
+         <widget class="QLineEdit" name="txt_CalibrationCoefficient"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>校準</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <property name="topMargin">
+         <number>5</number>
+        </property>
+        <item row="5" column="1">
+         <widget class="QPushButton" name="btn_tcp_settings">
+          <property name="text">
+           <string>保存</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="txt_tcp_server_IP"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_tcp_server_IP">
+          <property name="text">
+           <string>服務器IP</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="txt_timeout"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="lbl_timeout">
+          <property name="text">
+           <string>timout</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="txt_tcp_server_port"/>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_tcp_server_port">
+          <property name="text">
+           <string>服務器Port</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="lbl_channel_num">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <property name="text">
+           <string>顯示通道數量</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QComboBox" name="comboBox">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <item>
+           <property name="text">
+            <string>1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>668</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

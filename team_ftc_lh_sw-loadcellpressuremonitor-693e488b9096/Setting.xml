@@ -1,0 +1,32 @@
+<Setting>
+    <EquipmentID>BJPM-M-FS-001</EquipmentID>
+    <Password>0000</Password>
+    <UpperValue>20</UpperValue>
+    <UpperValue_2SV>20</UpperValue_2SV>
+    <UpperValue_3SV>20</UpperValue_3SV>
+    <UpperValue_4SV>20</UpperValue_4SV>
+    <LowerValue>0</LowerValue>
+    <LowerValue_2SV>0</LowerValue_2SV>
+    <LowerValue_3SV>0</LowerValue_3SV>
+    <LowerValue_4SV>0</LowerValue_4SV>
+    <CalibrationCoefficient>2</CalibrationCoefficient>
+    <CalibrationWeight>
+        <c1>5</c1>
+        <c2>10</c2>
+        <c3>15</c3>
+    </CalibrationWeight>
+    <CalibrationRawdata>
+        <c1>0</c1>
+        <c2>0</c2>
+        <c3>0</c3>
+    </CalibrationRawdata>
+    <CalibrationResult>
+        <slope>1</slope>
+        <intercept>0</intercept>
+    </CalibrationResult>
+    <TotalCount>0</TotalCount>
+    <TCPIP>10.167.69.9</TCPIP>
+    <TCPPort>54321</TCPPort>
+    <channelNum>4</channelNum>
+    <timeout>30</timeout>
+</Setting>
